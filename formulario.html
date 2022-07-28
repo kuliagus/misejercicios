@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <div>
+        <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" required placeholder="Ingresa tu nombre" />
+      </div>
+
+      <p></p> <!--No sé si sería conveniente poner <br> o <p> , yo elegí esta última -->
+
+      <div>
+        <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" required placeholder="Ingresa tu apellido" />
+      </div> 
+
+      <div> <p></p>  Modalidad de cursada:
+        <input type="radio" name"" id="On-Demand">
+        <label for="On-Demand">On-Demand</label>
+
+        <input type="radio" name"" id="En vivo">
+        <label for="En vivo">En vivo</label>
+      </div>
+
+      <div> <p></p>
+        <label for="Correo">Correo:</label>
+        <input type="email" id="Correo" required placeholder="Ingresa tu correo"/>
+     </div>
+
+     <div> <p></p>
+        <input type="checkbox" id="informacion">
+        <label for="informacion">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba.</label>
+    </div>
+
+    <div> <p></p>
+        <input type="checkbox" id="informacion">
+        <label for="informacion">Declaro que leí los terminos y condiciones y estoy listo para convertirme en Desarollador web Full Stack.</label>
+    </div>
+
+    <div> <br>
+        <input type="submit">
+    </div>
+</body>
+</html>
